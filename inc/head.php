@@ -37,6 +37,7 @@
     
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
     
     
 </head>
