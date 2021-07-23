@@ -51,7 +51,7 @@
 		<section class="content-inner-1 pt-0">
 			<div class="container">
 				<div class="contact-area onboard-area aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-					<form class="dz-form style-1 dzForm" method="POST" action="inc/onboard-helper.php">
+					<form class="" method="POST" action="inc/onboard-helper.php">
 						<div class="row sp10">
 							<div class="col-sm-6 m-b20">
 								<div class="input-group">
