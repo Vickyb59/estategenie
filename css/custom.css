@@ -2,3 +2,6 @@
     padding: 40px 40px 80px 40px;
     margin-top: 0;
 }
+.radio-div [type='radio'] {
+    margin: 0 20px 0 20px;
+}
