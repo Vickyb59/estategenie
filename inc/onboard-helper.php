@@ -1,4 +1,7 @@
 <?php
+    session_start();
+	include 'conn.php';
+
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
 
@@ -15,9 +18,11 @@
 		$businessstart = $_POST['businessstart'];
 		$businesssynopsis = $_POST['businesssynopsis'];
 		$standout = $_POST['standout'];
-		$servicecharge = $_POST['business'];
+		$servicecharge = $_POST['servicecharge'];
 		$subscription = $_POST['subscription'];
 		$brandclasssub = $_POST['brandclasssub'];
+
+		$type = 2; // 1-Admin 2-Vendor 3-Resident
 
 		$_SESSION['fullname'] = $fullname;
 		$_SESSION['email'] = $email;
@@ -36,9 +41,8 @@
 			$now = date('Y-m-d');
 
 			try{
-				$stmt = $conn->prepare("INSERT INTO users (fullname, email, phonenumber, community, business, address, staffnumber, businessphnno, socials, businessstart, businesssynopsis, standout, servicecharge, subscription, brandclasssub, created_on) VALUES (:fullname, :email, :phonenumber, :community, :business, :address, :staffnumber, :businessphnno, :socials, :businessstart, :businesssynopsis, :standout, :servicecharge, :subscription, :brandclasssub, :now)");
-				$stmt->execute(['fullname'=>$fullname, 'email'=>$email, 'phonenumber'=>$phonenumber, 'community'=>$community, 'business'=>$business, 'address'=>$address, 'staffnumber'=>$staffnumber, 'businessphnno'=>$businessphnno, 'socials'=>$socials, 'businessstart'=>$businessstart, 'businesssynopsis'=>$businesssynopsis, 'standout'=>$standout, 'servicecharge'=>$servicecharge, 'subscription'=>$subscription, 'brandclasssub'=>$brandclasssub, 'now'=>$now]);
-				$userid = $conn->lastInsertId();
+				$stmt = $conn->prepare("INSERT INTO users (fullname, email, phonenumber, community, business, address, staffnumber, businessphnno, socials, businessstart, businesssynopsis, standout, servicecharge, subscription, brandclasssub, type, created_on) VALUES (:fullname, :email, :phonenumber, :community, :business, :address, :staffnumber, :businessphnno, :socials, :businessstart, :businesssynopsis, :standout, :servicecharge, :subscription, :brandclasssub, :type, :now)");
+				$stmt->execute(['fullname'=>$fullname, 'email'=>$email, 'phonenumber'=>$phonenumber, 'community'=>$community, 'business'=>$business, 'address'=>$address, 'staffnumber'=>$staffnumber, 'businessphnno'=>$businessphnno, 'socials'=>$socials, 'businessstart'=>$businessstart, 'businesssynopsis'=>$businesssynopsis, 'standout'=>$standout, 'servicecharge'=>$servicecharge, 'subscription'=>$subscription, 'brandclasssub'=>$brandclasssub, 'type'=>$type, 'now'=>$now]);
 
 				$message = "
 					<h2>Thank you for Registering to the estate genie platform.</h2>
