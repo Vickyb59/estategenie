@@ -35,7 +35,7 @@
 		$row = $stmt->fetch();
 		if($row['numrows'] > 0){
 			$_SESSION['error'] = 'Email already exists.';
-			header('location: vendor-form.php');
+			header('location: ../vendor-form.php');
 		}
 		else{
 			$now = date('Y-m-d');
@@ -101,19 +101,19 @@
 			        unset($_SESSION['email']);
 
 			        $_SESSION['success'] = 'You have successfully subscribed to the estate genie platform.';
-			        header('location: vendor-form.php');
+			        header('location: ../vendor-form.php');
 
 			    } 
 			    catch (Exception $e) {
 			        $_SESSION['success'] = 'You have successfully subscribed to the estate genie platform.';
-			        header('location: vendor-form.php');
+			        header('location: ../vendor-form.php');
 			    }
 
 
 			}
 			catch(PDOException $e){
 				$_SESSION['success'] = $e->getMessage();
-				header('location: vendor-form.php');
+				header('location: ../vendor-form.php');
 			}
 
 			$pdo->close();
@@ -123,7 +123,7 @@
 	}
 	else{
 		$_SESSION['error'] = 'Fill up vendor form first';
-		header('location: vendor-form.php');
+		header('location: ../vendor-form.php');
 	}
 
 ?>
