@@ -1,0 +1,14 @@
+<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="vendor/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="vendor/lightgallery/js/lightgallery-all.min.js"></script><!-- LIGHTGALLERY -->
+<script src="vendor/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+<script src="vendor/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="vendor/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
+<script src="vendor/masonry/masonry-4.2.2.js"></script><!-- MASONRY -->
+<script src='www.google.com/recaptcha/api.js'></script>
+<script src="vendor/aos/aos.js"></script><!-- AOS -->
+<script src="js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
+<script src="js/dz.ajax.js"></script><!-- AJAX -->
+<script src="js/custom.js"></script><!-- CUSTOM JS -->
