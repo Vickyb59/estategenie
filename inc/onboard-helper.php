@@ -5,6 +5,8 @@
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
 
+	$year = date('Y');
+
 	if(isset($_POST['onboardVendor'])){
 		$fullname = $_POST['fullname'];
 		$email = $_POST['email'];
