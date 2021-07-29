@@ -62,7 +62,12 @@
                         <li <?php echo ( $page_name == 'Home' || $page_parent == 'Home') ? 'class="active"' : ''; ?>><a href="<?= $baseurl; ?>">Home</a></li>
                         <li <?php echo ( $page_name == 'About Us' || $page_parent == 'About Us') ? 'class="active"' : ''; ?>><a href="about">About Us</a></li>
                         <li <?php echo ( $page_name == 'Features' || $page_parent == 'Features') ? 'class="active"' : ''; ?>><a href="features">Features</a></li>
-                        <li <?php echo ( $page_name == 'Onboarding' || $page_parent == 'Onboarding') ? 'class="active"' : ''; ?>><a href="onboarding">Onboarding</a></li>
+                        <li class="sub-menu-down <?php echo ( $page_name == 'Onboarding' || $page_parent == 'Onboarding') ? 'active' : ''; ?> "><a href="onboarding">Onboarding</a>
+                            <ul class="sub-menu">
+                                <li><a href="vendor-onboarding">Vendor</a></li>
+                                <li><a href="resident-onboarding">Resident</a></li>
+                            </ul>
+                        </li>
                         <!--<li <?= ( $page_name == 'Pricing' || $page_parent == 'Pricing') ? 'class="active"' : ''; ?>><a href="pricing">Pricing</a></li>-->
                         <li <?php echo ( $page_name == 'Blog' || $page_parent == 'Blog') ? 'class="active"' : ''; ?>><a href="blog">Blog</a></li>
                         <li <?php echo ( $page_name == 'Contact Us' || $page_parent == 'Contact Us') ? 'class="active"' : ''; ?>><a href="contact">Contact Us</a></li>
