@@ -5,3 +5,43 @@
 .radio-div [type='radio'] {
     margin: 0 20px 0 20px;
 }
+.callout {
+  border-radius: 3px;
+  margin: 0 0 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.callout a {
+  color: #fff;
+  text-decoration: underline;
+}
+.callout a:hover {
+  color: #eee;
+}
+.callout h4 {
+  margin-top: 0;
+  font-weight: 600;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout code,
+.callout .highlight {
+  background-color: #fff;
+}
+.callout.callout-danger {
+  border-color: #c23321;
+  background: #fff;
+}
+.callout.callout-warning {
+  border-color: #c87f0a;
+  background: #fff;
+}
+.callout.callout-info {
+  border-color: #0097bc;
+  background: #fff;
+}
+.callout.callout-success {
+  border-color: #00733e;
+  background: #fff;
+}

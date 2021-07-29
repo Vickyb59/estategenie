@@ -35,6 +35,29 @@
 		<section class="content-inner">
 			<div class="container">
 				<div class="row">
+
+
+		            <?php
+		                if(isset($_SESSION['error'])){
+		                    echo "
+		                        <div class='callout callout-danger'>
+		                            ".$_SESSION['error']."
+		                        </div>
+		                    ";
+		                    unset($_SESSION['error']);
+		                }
+
+		                if(isset($_SESSION['success'])){
+		                    echo "
+
+
+		                        <div class='success-text'><i class='fa fa-check-circle' aria-hidden='true'></i>
+		                            ".$_SESSION['success']."
+		                        </div>
+		                    ";
+		                    unset($_SESSION['success']);
+		                }
+		            ?>
 					<div class="col-lg-12 col-md-12 m-b30 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
 						<div class="icon-bx-wraper style-8 bg-white" data-name="01">
 							
