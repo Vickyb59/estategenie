@@ -2,8 +2,8 @@
     session_start();
     include('inc/config.php');
 
-    $page_name = 'News';
-    $page_banner_name = 'News';
+    $page_name = 'Blog';
+    $page_banner_name = 'Blog';
     $page_parent = '';
     $page_parent_url = '';
     $page_title = 'Welcome to the Official Website of '.$settings->siteTitle;

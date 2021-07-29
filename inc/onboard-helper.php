@@ -121,9 +121,120 @@
 		}
 
 	}
+	elseif(isset($_POST['onboardResident'])){
+		$fullname = $_POST['fullname'];
+		$email = $_POST['email'];
+		$phonenumber = $_POST['phonenumber'];
+		$estate = $_POST['estate'];
+		$address = $_POST['address'];
+		$socials = $_POST['socials'];
+		$propertystatus = $_POST['propertystatus'];
+		$maritalstatus = $_POST['maritalstatus'];
+		$occupation = $_POST['occupation'];
+		$occupationalstatus = $_POST['occupationalstatus'];
+
+		$type = 3; // 1-Admin 2-Vendor 3-Resident
+
+		$_SESSION['fullname'] = $fullname;
+		$_SESSION['email'] = $email;
+
+		
+		$conn = $pdo->open();
+
+		$stmt = $conn->prepare("SELECT COUNT(*) AS numrows FROM users WHERE email=:email");
+		$stmt->execute(['email'=>$email]);
+		$row = $stmt->fetch();
+		if($row['numrows'] > 0){
+			$_SESSION['error'] = 'Email already exists.';
+			header('location: ../resident-form.php');
+		}
+		else{
+			$now = date('Y-m-d');
+
+			try{
+				$stmt = $conn->prepare("INSERT INTO users (fullname, email, phonenumber, estate, address, socials, propertystatus, maritalstatus, occupation, occupationalstatus, type, created_on) VALUES (:fullname, :email, :phonenumber, :estate, :address, :socials, :propertystatus, :maritalstatus, :occupation, :occupationalstatus, :type, :now)");
+				$stmt->execute(['fullname'=>$fullname, 'email'=>$email, 'phonenumber'=>$phonenumber, 'estate'=>$estate, 'address'=>$address, 'socials'=>$socials, 'propertystatus'=>$propertystatus, 'maritalstatus'=>$maritalstatus, 'occupation'=>$occupation, 'occupationalstatus'=>$occupationalstatus, 'type'=>$type, 'now'=>$now]);
+
+				$message = "
+					<h2>Thank you for Registering to the estate genie platform.</h2>
+				";
+
+
+				//Notify Admin
+
+				$msg = "A New Resident Just Registered, Login Admin";
+
+				// use wordwrap() if lines are longer than 70 characters
+				$msg = wordwrap($msg,70);
+
+				// send email
+				mail("info@estategenie.com.ng","New Resident",$msg);
+
+
+
+
+				//Load phpmailer
+	    		require '../vendor/autoload.php';
+
+	    		$mail = new PHPMailer(true);                             
+			    try {
+			        //Server settings
+			        $mail->isSMTP();                                     
+			        $mail->Host = 'mail.estategenie.com.ng';                      
+			        $mail->SMTPAuth = true;                               
+			        $mail->Username = 'noreply@estategenie.com.ng';     
+			        $mail->Password = 'Egen@001-';                    
+			        $mail->SMTPOptions = array(
+			            'ssl' => array(
+			            'verify_peer' => false,
+			            'verify_peer_name' => false,
+			            'allow_self_signed' => true
+			            )
+			        );                         
+			        $mail->SMTPSecure = 'ssl';                           
+			        $mail->Port = 465;                                   
+
+			        $mail->setFrom('info@estategenie.com.ng');
+			        
+			        //Recipients
+			        $mail->addAddress($email);              
+			        $mail->addReplyTo('info@estategenie.com.ng');
+			       
+			        //Content
+			        $mail->isHTML(true);                                  
+			        $mail->Subject = 'Estate Genie Sign Up';
+			        $mail->Body    = $message;
+
+			        $mail->send();
+
+			        unset($_SESSION['firstname']);
+			        unset($_SESSION['lastname']);
+			        unset($_SESSION['email']);
+
+			        $_SESSION['success'] = 'You have successfully subscribed to the estate genie platform.';
+			        header('location: ../resident-form.php');
+
+			    } 
+			    catch (Exception $e) {
+			        $_SESSION['success'] = 'You have successfully subscribed to the estate genie platform.';
+			        header('location: ../resident-form.php');
+			    }
+
+
+			}
+			catch(PDOException $e){
+				$_SESSION['success'] = $e->getMessage();
+				header('location: ../resident-form.php');
+			}
+
+			$pdo->close();
+
+		}
+
+	}
 	else{
-		$_SESSION['error'] = 'Fill up vendor form first';
-		header('location: ../vendor-form.php');
+		$_SESSION['error'] = 'Fill up onboarding form first';
+		header('location: ' . $_SERVER['HTTP_REFERER']);
 	}
 
 ?>

@@ -62,8 +62,9 @@
                         <li <?php echo ( $page_name == 'Home' || $page_parent == 'Home') ? 'class="active"' : ''; ?>><a href="<?= $baseurl; ?>">Home</a></li>
                         <li <?php echo ( $page_name == 'About Us' || $page_parent == 'About Us') ? 'class="active"' : ''; ?>><a href="about">About Us</a></li>
                         <li <?php echo ( $page_name == 'Features' || $page_parent == 'Features') ? 'class="active"' : ''; ?>><a href="features">Features</a></li>
-                        <li <?php echo ( $page_name == 'Pricing' || $page_parent == 'Pricing') ? 'class="active"' : ''; ?>><a href="pricing">Pricing</a></li>
-                        <li <?php echo ( $page_name == 'News' || $page_parent == 'News') ? 'class="active"' : ''; ?>><a href="blog">News</a></li>
+                        <li <?php echo ( $page_name == 'Onboarding' || $page_parent == 'Onboarding') ? 'class="active"' : ''; ?>><a href="onboarding">Onboarding</a></li>
+                        <!--<li <?= ( $page_name == 'Pricing' || $page_parent == 'Pricing') ? 'class="active"' : ''; ?>><a href="pricing">Pricing</a></li>-->
+                        <li <?php echo ( $page_name == 'Blog' || $page_parent == 'Blog') ? 'class="active"' : ''; ?>><a href="blog">Blog</a></li>
                         <li <?php echo ( $page_name == 'Contact Us' || $page_parent == 'Contact Us') ? 'class="active"' : ''; ?>><a href="contact">Contact Us</a></li>
                     </ul>
                     <div class="dz-social-icon">
