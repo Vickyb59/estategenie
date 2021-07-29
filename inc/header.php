@@ -64,8 +64,8 @@
                         <li <?php echo ( $page_name == 'Features' || $page_parent == 'Features') ? 'class="active"' : ''; ?>><a href="features">Features</a></li>
                         <li class="sub-menu-down <?php echo ( $page_name == 'Onboarding' || $page_parent == 'Onboarding') ? 'active' : ''; ?> "><a href="onboarding">Onboarding</a>
                             <ul class="sub-menu">
-                                <li><a href="vendor-onboarding">Vendor</a></li>
-                                <li><a href="resident-onboarding">Resident</a></li>
+                                <li><a href="vendor-form">Vendor</a></li>
+                                <li><a href="resident-form">Resident</a></li>
                             </ul>
                         </li>
                         <!--<li <?= ( $page_name == 'Pricing' || $page_parent == 'Pricing') ? 'class="active"' : ''; ?>><a href="pricing">Pricing</a></li>-->
