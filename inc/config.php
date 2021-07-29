@@ -28,10 +28,10 @@
 		){ 		
 			$baseurl = 'http://localhost/estategenie';			
 		}  else {			
-			$baseurl = 'https://estategenie.com/';
+			$baseurl = 'https://estategenie.com.ng/';
 		}
 	//main url for SEO configurations
-	$main_url = 'http://www.estategenie.com/';
+	$main_url = 'http://www.estategenie.com.ng/';
 	//main website configuration settings
 		$settings = (object) array(
 			'active' => 'active',
@@ -39,7 +39,7 @@
 			'siteTagline' => 'Bridging the gap between Managers and Residents',
 			'phoneNumber' => '+1 234 567 8910',
 			'address' => 'Estate Genie, 123 ABC SW, Def, XYZ P2Q 3Z1, NG',
-			'email' => 'info@estategenie.com',
+			'email' => 'info@estategenie.com.ng',
 			'themeColor' => '#f58637',
 			'siteLogo' => 'assets/img/logo/logo.png',
 			'liteLogo' => 'assets/img/logo/logo-light.png',
