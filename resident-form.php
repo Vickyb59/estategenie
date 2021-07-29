@@ -100,7 +100,7 @@
 							</div>
 							<div class="col-sm-6 m-b20">
 								<div class="input-group">
-									<input type="date" class="form-control" name="occupation" placeholder="Occupation" required>
+									<input type="text" class="form-control" name="occupation" placeholder="Occupation" required>
 								</div>
 							</div>
 							<div class="col-sm-6 m-b20 radio-div">
