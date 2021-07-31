@@ -37,7 +37,7 @@
 			'active' => 'active',
 			'siteTitle' => 'Estate Genie',
 			'siteTagline' => 'Bridging the gap between Managers and Residents',
-			'phoneNumber' => '+1 234 567 8910',
+			'phoneNumber' => '+234 818 757 5804',
 			'address' => 'Estate Genie, 111 Ogunlana Drive, Surulere, Lagos, Nigeria',
 			'email' => 'info@estategenie.com.ng',
 			'themeColor' => '#f58637',
