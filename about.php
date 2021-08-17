@@ -47,7 +47,7 @@
 					</div>
 					<div class="col-lg-6 aos-item" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="800">
 						<div class="section-head style-1">
-							<h6 class="text-primary sub-title">Welcome To ArchCode</h6>
+							<h6 class="text-primary sub-title">Welcome To Estate Genie</h6>
 							<h2 class="title">We Can Create More Than You Expect</h2>
 						</div>
 						<p>Orion LTD, is a dynamic organization focused on crafting unique and innovative digital solutions to daily problems.<br>
