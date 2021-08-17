@@ -121,26 +121,26 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-sm-6 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-						<div class="icon-bx-wraper style-6 m-b30" data-name="789">
-							<h2 class="counter text-primary">8</h2>
+						<div class="icon-bx-wraper style-6 m-b30" data-name="25">
+							<h2 class="counter text-primary">25</h2>
 							<h4 class="title">Trusted<br/>Partners</h4>
 						</div>
 					</div>
 					<div class="col-lg-3 col-sm-6 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-						<div class="icon-bx-wraper style-6 m-b30" data-name="158">
+						<div class="icon-bx-wraper style-6 m-b30" data-name="16">
 							<h2 class="counter text-primary">16</h2>
 							<h4 class="title">Estate<br/>Managed</h4>
 						</div>
 					</div>
 					<div class="col-lg-3 col-sm-6 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-						<div class="icon-bx-wraper style-6 m-b30" data-name="874">
-							<h2 class="counter text-primary">32</h2>
+						<div class="icon-bx-wraper style-6 m-b30" data-name="571">
+							<h2 class="counter text-primary">571</h2>
 							<h4 class="title">Happy<br/>Clients</h4>
 						</div>
 					</div>
 					<div class="col-lg-3 col-sm-6 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
-						<div class="icon-bx-wraper style-6 m-b30" data-name="987">
-							<h2 class="counter text-primary">64</h2>
+						<div class="icon-bx-wraper style-6 m-b30" data-name="1255">
+							<h2 class="counter text-primary">1255</h2>
 							<h4 class="title">Estate <br/>Users</h4>
 						</div>
 					</div>
