@@ -154,7 +154,7 @@
 										</div>
 										<div class="dz-content">
 											<h5 class="dz-name"><a href="javascript:void(0);">Bateren Victor</a></h5>
-											<h6 class="dz-position text-primary">Developer</h6>
+											<h6 class="dz-position text-primary">In-House Developer</h6>
 										</div>
 									</div>
 								</div>
