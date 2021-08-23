@@ -428,7 +428,7 @@
 										</div>
 										<h5 class="dz-title"><a href="#">Become a Registered Estate Agent.</a></h5>
 										<div class="dz-post-text text">
-											<p>You can become a registered Estate Agent from the comfort of your home. Just Sign Up now.</p>
+											<p>You can become a registered Estate Agent from the comfort of your home. Just Sign Up now...</p>
 										</div>
 										<a href="#" class="btn-link">Read More</a>
 									</div>
@@ -445,9 +445,9 @@
 												<li class="post-date">25 March 2021</li>
 											</ul>
 										</div>
-										<h5 class="dz-title"><a href="#">Estate Troubles? 5 Ways To Alert Managers and Security.</a></h5>
+										<h5 class="dz-title"><a href="#">Estate Genie Mobile App.</a></h5>
 										<div class="dz-post-text text">
-											<p>You can align your image to the left, right, or center with a caption, link and alt text New Journey to the.</p>
+											<p>Whatever your need, the Estate Genie Mobile App has got you covered. Request for help through the...</p>
 										</div>
 										<a href="#" class="btn-link">Read More</a>
 									</div>
@@ -461,12 +461,12 @@
 									<div class="dz-info text-center">
 										<div class="dz-meta">
 											<ul>
-												<li class="post-date">7 March 2021</li>
+												<li class="post-date">7 June 2021</li>
 											</ul>
 										</div>
-										<h5 class="dz-title"><a href="#">Estate Troubles? 5 Ways To Alert Managers and Security.</a></h5>
+										<h5 class="dz-title"><a href="#">Estate Genie Farmers Market.</a></h5>
 										<div class="dz-post-text text">
-											<p>You can align your image to the left, right, or center with a caption, link and alt text New Journey to the.</p>
+											<p>Get updated about the freshest farm produced from local concessionaires...</p>
 										</div>
 										<a href="#" class="btn-link">Read More</a>
 									</div>
