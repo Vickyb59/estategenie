@@ -113,7 +113,7 @@
 								<div class="swiper-slide">
 									<div class="dz-team style-1 text-center m-b30 overlay-shine aos-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
 										<div class="dz-media">
-											<a href="javascript:void(0);"><img src="images/team/pic2.jpg" alt=""></a>
+											<a href="javascript:void(0);"><img src="images/team/kikelomo.jpg" alt=""></a>
 											<ul class="team-social">
 												<li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
 												<li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
@@ -121,7 +121,7 @@
 											</ul>
 										</div>
 										<div class="dz-content">
-											<h5 class="dz-name"><a href="javascript:void(0);">Rebecca Ruth</a></h5>
+											<h5 class="dz-name"><a href="javascript:void(0);">Kikelomo Fola-Ogunniya</a></h5>
 											<h6 class="dz-position text-primary">Director</h6>
 										</div>
 									</div>
@@ -129,7 +129,7 @@
 								<div class="swiper-slide">
 									<div class="dz-team style-1 text-center m-b30 overlay-shine aos-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
 										<div class="dz-media">
-											<a href="javascript:void(0);"><img src="images/team/pic3.jpg" alt=""></a>
+											<a href="javascript:void(0);"><img src="images/team/peter.jpg" alt=""></a>
 											<ul class="team-social">
 												<li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
 												<li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
@@ -137,7 +137,7 @@
 											</ul>
 										</div>
 										<div class="dz-content">
-											<h5 class="dz-name"><a href="javascript:void(0);">Austin Doe</a></h5>
+											<h5 class="dz-name"><a href="javascript:void(0);">Peter Ekunkoya</a></h5>
 											<h6 class="dz-position text-primary">Director</h6>
 										</div>
 									</div>
@@ -153,24 +153,8 @@
 											</ul>
 										</div>
 										<div class="dz-content">
-											<h5 class="dz-name"><a href="javascript:void(0);">Lala Rose</a></h5>
-											<h6 class="dz-position text-primary">Director</h6>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="dz-team style-1 text-center m-b30 overlay-shine aos-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-										<div class="dz-media">
-											<a href="javascript:void(0);"><img src="images/team/pic2.jpg" alt=""></a>
-											<ul class="team-social">
-												<li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-												<li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
-												<li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-											</ul>
-										</div>
-										<div class="dz-content">
-											<h5 class="dz-name"><a href="javascript:void(0);">Andrey Carol</a></h5>
-											<h6 class="dz-position text-primary">Director</h6>
+											<h5 class="dz-name"><a href="javascript:void(0);">Bateren Victor</a></h5>
+											<h6 class="dz-position text-primary">Developer</h6>
 										</div>
 									</div>
 								</div>
