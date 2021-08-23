@@ -100,13 +100,13 @@
 							<div class="col-md-6">
 								<div class="about-text-bx">
 									<h4>Managers</h4>
-									<p>Curabitur vel auctor nibh. Curabitur egestas posuere mi, sed pulvinar ligula.</p>
+									<p>Our app holds a specially structured management center created for the Estate Managers.</p>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="about-text-bx">
 									<h4>Residents</h4>
-									<p>Curabitur vel auctor nibh. Curabitur egestas posuere mi, sed pulvinar ligula.</p>
+									<p>Adding value and convenience to the lives of Residents is the main aim of this digital solution.</p>
 								</div>
 							</div>
 						</div>
@@ -240,12 +240,12 @@
 											<img src="images/testimonials/pic1.jpg" alt="">
 											<div class="info">
 												<h5 class="testimonial-name">John</h5> 
-												<span class="testimonial-position text-primary">Estate A</span> 
+												<span class="testimonial-position text-primary">Magodo GRA</span> 
 											</div>
 										</div>
 										<div class="testimonial-info">
 											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio. applale Dgafgad</p>
+												<p>Since I started using the Estate-genie , I can easily schedule visits and permit my guest to exit my estate without hassles or delays, awesome.</p>
 											</div>
 											<div class="testimonial-review">
 												<ul class="star-rating text-primary">
@@ -266,12 +266,12 @@
 											<img src="images/testimonials/pic2.jpg" alt="">
 											<div class="info">
 												<h5 class="testimonial-name">Caroline</h5> 
-												<span class="testimonial-position text-primary">Estate B</span> 
+												<span class="testimonial-position text-primary">Harmony Estate</span> 
 											</div>
 										</div>
 										<div class="testimonial-info">
 											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
+												<p>I recently rented a lovely flat through the estate genie platform, what’s more; I was able to hire all my interior design staff straight from the app, best quality.</p>
 											</div>
 											<div class="testimonial-review">
 												<ul class="star-rating text-primary">
@@ -291,13 +291,13 @@
 										<div class="testimonial-pic">
 											<img src="images/testimonials/pic3.jpg" alt="">
 											<div class="info">
-												<h5 class="testimonial-name">Kimberly</h5> 
-												<span class="testimonial-position text-primary">Estate C</span> 
+												<h5 class="testimonial-name">Fatima</h5> 
+												<span class="testimonial-position text-primary">Atlantic Homes, Lekki(Vendor)</span> 
 											</div>
 										</div>
 										<div class="testimonial-info">
 											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
+												<p>Moving to the island was daunting, but with the estate genie I was able to develop and expose my brand to my estate residents, now I have more clients than ever before,from the comfort of my home, use fully.</p>
 											</div>
 											<div class="testimonial-review">
 												<ul class="star-rating text-primary">
@@ -307,7 +307,7 @@
 													<li><i class="fa fa-star"></i></li>
 													<li><i class="fa fa-star"></i></li>
 												</ul>
-												<h4 class="review">Use Fully</h4>
+												<h4 class="review">User Friendly</h4>
 											</div>
 										</div>
 									</div>
@@ -317,13 +317,13 @@
 										<div class="testimonial-pic">
 											<img src="images/testimonials/pic1.jpg" alt="">
 											<div class="info">
-												<h5 class="testimonial-name">Ginger Plantq</h5> 
-												<span class="testimonial-position text-primary">Estate D</span> 
+												<h5 class="testimonial-name">Engr. Tokumbo</h5> 
+												<span class="testimonial-position text-primary">Crown Estate, Lekki</span> 
 											</div>
 										</div>
 										<div class="testimonial-info">
 											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
+												<p>Using the estate genie’s social-hub, I’ve established new connections and created  a social bubble, Liverpool for life, never walk alone.</p>
 											</div>
 											<div class="testimonial-review">
 												<ul class="star-rating text-primary">
@@ -333,7 +333,7 @@
 													<li><i class="fa fa-star"></i></li>
 													<li><i class="fa fa-star"></i></li>
 												</ul>
-												<h4 class="review">Grateful</h4>
+												<h4 class="review">Creating Network</h4>
 											</div>
 										</div>
 									</div>
@@ -343,13 +343,13 @@
 										<div class="testimonial-pic">
 											<img src="images/testimonials/pic2.jpg" alt="">
 											<div class="info">
-												<h5 class="testimonial-name">Fay Daway</h5> 
-												<span class="testimonial-position text-primary">Estate E</span> 
+												<h5 class="testimonial-name">Dr Akeredolu</h5> 
+												<span class="testimonial-position text-primary">Deputy Chairman; Dideolu Housing Estate, Ogba</span> 
 											</div>
 										</div>
 										<div class="testimonial-info">
 											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
+												<p>Residents are more cooperative and social, the community's welfare and levies are attended to promptly, we love it.</p>
 											</div>
 											<div class="testimonial-review">
 												<ul class="star-rating text-primary">
@@ -359,7 +359,7 @@
 													<li><i class="fa fa-star"></i></li>
 													<li><i class="fa fa-star"></i></li>
 												</ul>
-												<h4 class="review">Awesome</h4>
+												<h4 class="review">Effective</h4>
 											</div>
 										</div>
 									</div>
