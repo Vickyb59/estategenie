@@ -426,9 +426,9 @@
 												<li class="post-date">14 Feb 2021</li>
 											</ul>
 										</div>
-										<h5 class="dz-title"><a href="#">Estate Troubles? 5 Ways To Alert Managers and Security.</a></h5>
+										<h5 class="dz-title"><a href="#">Become a Registered Estate Agent.</a></h5>
 										<div class="dz-post-text text">
-											<p>You can align your image to the left, right, or center with a caption, link and alt text New Journey to the.</p>
+											<p>You can become a registered Estate Agent from the comfort of your home. Just Sign Up now.</p>
 										</div>
 										<a href="#" class="btn-link">Read More</a>
 									</div>
