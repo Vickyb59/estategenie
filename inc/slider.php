@@ -11,7 +11,7 @@
                                 </div>
                             </div>
                             <div class="slider-img" data-swiper-parallax-y="-40%" data-swiper-parallax-x="20%" data-swiper-parallax-opacity="0">
-                                <img src="images/main-slider/pic.jpg" alt="Estate Genie Slider Image"/> 
+                                <img src="images/main-slider/pic4.jpg" alt="Estate Genie Slider Image"/> 
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                             <div class="slider-img" data-swiper-parallax-y="-40%" data-swiper-parallax-x="20%" data-swiper-parallax-opacity="0">
-                                <img src="images/main-slider/pic.jpg" alt="Estate Genie Slider Image"/> 
+                                <img src="images/main-slider/pic5.jpg" alt="Estate Genie Slider Image"/> 
                             </div>
                         </div>
                     </div>
