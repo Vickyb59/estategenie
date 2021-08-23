@@ -58,13 +58,13 @@
 							<div class="col-md-6">
 								<div class="about-text-bx">
 									<h4>Managers</h4>
-									<p>Curabitur vel auctor nibh. Curabitur egestas posuere mi, sed pulvinar ligula.</p>
+									<p>Our app holds a specially structured management center created for the Estate Managers.</p>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="about-text-bx">
 									<h4>Residents</h4>
-									<p>Curabitur vel auctor nibh. Curabitur egestas posuere mi, sed pulvinar ligula.</p>
+									<p>Adding value and convenience to the lives of Residents is the main aim of this digital solution.</p>
 								</div>
 							</div>
 						</div>
@@ -82,158 +82,7 @@
 			</div>
 		</div>
 		<!-- Testimonials -->
-		<section class="content-inner section-title style-1">
-			<div class="container">
-				<div class="row ">
-					<div class="col-md-12">
-						<div class="section-head style-1 text-center">
-							<h6 class="text-primary sub-title">Testimonial</h6>
-							<h2 class="title">See What Our Clients Says</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 m-b20">
-						<div class="swiper-container testimonial-swiper">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-									<div class="testimonial-1">
-										<div class="testimonial-pic">
-											<img src="images/testimonials/pic1.jpg" alt="">
-											<div class="info">
-												<h5 class="testimonial-name">John</h5> 
-												<span class="testimonial-position text-primary">Estate A</span> 
-											</div>
-										</div>
-										<div class="testimonial-info">
-											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio. applale Dgafgad</p>
-											</div>
-											<div class="testimonial-review">
-												<ul class="star-rating text-primary">
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-												</ul>
-												<h4 class="review">Awesome</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-									<div class="testimonial-1">
-										<div class="testimonial-pic">
-											<img src="images/testimonials/pic2.jpg" alt="">
-											<div class="info">
-												<h5 class="testimonial-name">Caroline</h5> 
-												<span class="testimonial-position text-primary">Estate B</span> 
-											</div>
-										</div>
-										<div class="testimonial-info">
-											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
-											</div>
-											<div class="testimonial-review">
-												<ul class="star-rating text-primary">
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-												</ul>
-												<h4 class="review">Best Quality</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-									<div class="testimonial-1">
-										<div class="testimonial-pic">
-											<img src="images/testimonials/pic3.jpg" alt="">
-											<div class="info">
-												<h5 class="testimonial-name">Kimberly</h5> 
-												<span class="testimonial-position text-primary">Estate C</span> 
-											</div>
-										</div>
-										<div class="testimonial-info">
-											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
-											</div>
-											<div class="testimonial-review">
-												<ul class="star-rating text-primary">
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-												</ul>
-												<h4 class="review">Use Fully</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-									<div class="testimonial-1">
-										<div class="testimonial-pic">
-											<img src="images/testimonials/pic1.jpg" alt="">
-											<div class="info">
-												<h5 class="testimonial-name">Ginger Plantq</h5> 
-												<span class="testimonial-position text-primary">Estate D</span> 
-											</div>
-										</div>
-										<div class="testimonial-info">
-											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
-											</div>
-											<div class="testimonial-review">
-												<ul class="star-rating text-primary">
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-												</ul>
-												<h4 class="review">Grateful</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-									<div class="testimonial-1">
-										<div class="testimonial-pic">
-											<img src="images/testimonials/pic2.jpg" alt="">
-											<div class="info">
-												<h5 class="testimonial-name">Fay Daway</h5> 
-												<span class="testimonial-position text-primary">Estate E</span> 
-											</div>
-										</div>
-										<div class="testimonial-info">
-											<div class="testimonial-text">
-												<p>Suspendisse sem est, eleifend id vulputate sit amet, rhoncus mollis justo. Cras iaculis justo ac dictum vestibulum. Cras id arcu turpis. Nulla ligula velit, condimentum ut orci eget, semper efficitur odio.</p>
-											</div>
-											<div class="testimonial-review">
-												<ul class="star-rating text-primary">
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-													<li><i class="fa fa-star"></i></li>
-												</ul>
-												<h4 class="review">Awesome</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Add Navigation -->
-							<div class="swiper-pagination1 text-center"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php include('inc/testimonials.php'); ?>
 		<!-- Team -->
 		<section class="content-inner section-title">
 			<div class="container">
